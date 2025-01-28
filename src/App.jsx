@@ -3,9 +3,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import MHeader from "./components/MHeader";
-import SecondPage from "./components/SecondPage";
-import ThirdPage from "./components/ThirdPage";
-import ForthPage from "./components/ForthPage";
+import SecondPage from "./components/Secondpage";
+import Thirdpage from "./components/Thirdpage";
+import Forthpage from "./components/Forthpage";
 import Pricing from "./components/Pricing";
 import { Sparkle } from "lucide-react";
 import FAQ from "./components/FAQ";
@@ -38,9 +38,9 @@ const App = () => {
 
       <SecondPage />
 
-      <ThirdPage />
+      <Thirdpage />
 
-      <ForthPage />
+      <Forthpage />
 
       <Pricing />
 
